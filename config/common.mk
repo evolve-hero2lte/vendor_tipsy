@@ -37,6 +37,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/tipsy/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
 
+# ViPER4Android
+PRODUCT_PACKAGES += \
+    ViPER4Android
+
+PRODUCT_COPY_FILES += \
+    vendor/tipsy/proprietary/ViPER4Android/soundfx/armeabi/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/tipsy/proprietary/ViPER4Android/soundfx/arm64/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/tipsy/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
