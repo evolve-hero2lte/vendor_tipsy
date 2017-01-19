@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Titania.ogg \
+    ro.config.ringtone=Alya.ogg \
     ro.config.notification_sound=Tethys.ogg
 
 # NexusLauncher
@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    SlimOTA \
+#    SlimOTA \
     BluetoothExt \
     KernelAdiutor \
     LatinIME \
